@@ -1,0 +1,27 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+
+		String nome = JOptionPane.showInputDialog("Digite seu nome");
+		short idade = Short.parseShort(JOptionPane.showInputDialog("Digite sua idade"));
+		while(nome.length()<5 || nome.length()>20) {
+			nome = JOptionPane.showInputDialog("Nome inválido");
+			
+		}
+		
+		while(idade<=18 && idade>=20) {
+			idade = Short.parseShort(JOptionPane.showInputDialog("Idade inválida"));
+			
+		}
+			
+		
+		System.out.println("Seja bem vindo: " + nome + idade);
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		String disciplina = JOptionPane.showInputDialog("Digite o nome da disciplina: ");
+		byte falta = Byte.parseByte(JOptionPane.showInputDialog("Digite a quantidade de faltas: "));
+		double notaS1 = Double.parseDouble(JOptionPane.showInputDialog("Digite sua primeira nota: "));
+		double notaS2 = Double.parseDouble(JOptionPane.showInputDialog("Digite sua segunda nota: "));
+		double media = (notaS1 + notaS2) / 2;
+
+		System.out.println("Nome: " + disciplina);
+		System.out.println("Total de faltas: " + falta);
+		System.out.println("Nota 1º Semestre: " + notaS1);
+		System.out.println("Nota 2º Semestre: " + notaS2);
+		System.out.println("Media Final: " + media);
+	
+	
+	}
+
+}

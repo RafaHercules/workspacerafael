@@ -1,0 +1,27 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		String email = "rFlHerCUles@Gmail.com";
+		
+		System.out.println("Original: " + email);
+		//toUpperCase() -> todas as letras em Maiusculo
+		System.out.println("Maiusculo: " + email.toUpperCase());
+		//toLowerCase() -> todas as letras em Minusculo
+		System.out.println("Minusculo: " + email.toLowerCase());
+		//length() -> retorna quantidade de caracteres da String
+		System.out.println("Quandidade de caracteres: " + email.length());
+		//contains() -> retorna true/false sobre a existência ou não do caracter na String
+		System.out.println("Tem arroba? " + email.contains("@"));
+		//indexOf() -> retorna posição do caracter
+		System.out.println("Qual a posição do arroba? " + email.indexOf("@"));
+		//subString() -> retorna apenas os caracteres entre as posições especificadas
+		System.out.println("Do 2º até o 5º: " + email.substring(12,17));
+		//subString() -> a partir de determinado elemento
+		System.out.println("A partir do 3º elemento: " + email.substring(3,email.lenght()));
+		
+		
+	}
+
+}

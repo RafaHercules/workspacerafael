@@ -1,0 +1,31 @@
+package lista2;
+
+import javax.swing.JOptionPane;
+
+public class exercicio4 {
+
+	public static void main(String[] args) {
+		int v1 = Integer.parseInt(JOptionPane.showInputDialog("Valor 1"));
+		int v2 = Integer.parseInt(JOptionPane.showInputDialog("Valor 2"));
+		int v3 = Integer.parseInt(JOptionPane.showInputDialog("Valor 3"));
+		int aux;
+		
+		if(v2>v1) {
+			aux = v2;
+			v2=v1;
+			v1=aux;
+		} else if(v2>v3){
+			aux=v3;
+			v3=v2;
+			v2=aux;
+		} else if(v3>v1) {
+			aux=v3;
+			v3=v12;
+			v1=aux;		
+		}
+		System.out.println(v1);
+		System.out.println(v2);
+		System.out.println(v3);
+	}
+
+}

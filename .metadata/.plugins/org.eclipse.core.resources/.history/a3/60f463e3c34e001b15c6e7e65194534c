@@ -1,0 +1,21 @@
+package variaveis;
+
+public class Caminho {
+
+	public static void main(String[] args) {
+		String nomeProduto = "Notebook";
+		String categoriaProduto = "Eletrônico";
+		double valorProduto = 4599.99;
+		int qtdProduto = 2;
+		double impostoProduto = 7.5;
+		
+		System.out.println("Nome: " + nomeProduto);
+		System.out.println("Categoria: " + categoriaProduto);
+		System.out.println("Valor: " + valorProduto);
+		System.out.println("Quantidade: " + qtdProduto);
+		System.out.println("Imposto: " + impostoProduto);
+		
+		
+	}
+
+}

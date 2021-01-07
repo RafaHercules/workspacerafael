@@ -1,0 +1,19 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+
+	public static void main(String[] args) {
+		int n1 = 0;
+		int n2 = 0;
+		int count = 0;
+		
+		n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor inteiro"));
+		
+		do {
+			n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor inteiro"));
+		} while(n2!=n1);
+	}
+
+}
